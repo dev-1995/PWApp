@@ -103,7 +103,7 @@ Quill.register(VideoBlot);
 
 var toolbarOptions = [
 
-    ['video','image','tweet','videos','link' ]
+    ['image','tweet','videos','link' ]
 ];
 
 
