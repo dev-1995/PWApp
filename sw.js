@@ -1,5 +1,5 @@
-importScripts('/src/js/idb.js');
-importScripts('/src/js/dbutility.js')
+importScripts('src/js/idb.js');
+importScripts('src/js/dbutility.js')
 var FILES = [
     '/',
     '/index.html',
