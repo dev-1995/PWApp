@@ -102,6 +102,7 @@ $('#postdata').click(function(e){
                         .then(function() {
                             Materialize.toast('Post Saved for Sync!', 4000);
                             clearEditor();
+                           setTimeout(function(){ location.reload(); },2000);
                         })
                         .catch(function(err) {
                             console.log(err);
